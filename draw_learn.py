@@ -14,6 +14,7 @@ def draw_circle(x, y, r, color):
         for i in range(0, 401):
             draw_point(x + j*math.cos(i * c), y + j*math.sin(i * c), color)
 
+
 # Initialize the game engine
 pygame.init()
 
@@ -35,8 +36,6 @@ done = False
 clock = pygame.time.Clock()
 
 print("%-2d,%d" % (1, 2))
-
-i = 0
 
 while not done:
 
