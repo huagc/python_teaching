@@ -2,6 +2,7 @@
 import pygame
 from math import pi
 import math
+from mine.myModule import *
 
 
 def draw_point(x, y, color):
@@ -36,6 +37,7 @@ done = False
 clock = pygame.time.Clock()
 
 print("%-2d,%d" % (1, 2))
+print(myMax(1, 2), myMin(1, 2))
 
 while not done:
 
